@@ -12,9 +12,6 @@ describe file('/usr/local/lib/python3.6/dist-packages/atomicwrites') do
   it { should exist }
 end
 
-describe file('/usr/local/lib/python3.6/dist-packages/attrs-19.1.0.dist-info') do
-  it { should exist }
-end
 
 describe file('/usr/local/lib/python3.6/dist-packages/bs4') do
   it { should exist }
